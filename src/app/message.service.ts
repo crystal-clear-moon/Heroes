@@ -11,6 +11,7 @@ export class MessageService {
   }
 
   clear() {
+    console.log("clear");
     this.messages = [];
   }
 }
